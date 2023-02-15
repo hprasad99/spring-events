@@ -2,7 +2,9 @@ package com.spring.events.springevents.listeners;
 
 import com.spring.events.springevents.events.BigBangTheoryEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AudienceListener {
 
     @EventListener

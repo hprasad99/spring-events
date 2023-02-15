@@ -5,7 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
 public class BigBangTheoryEvent {
     private String episodeNo;
 
